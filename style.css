@@ -1,0 +1,59 @@
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* Form */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Radio and Checkbox Label */
+label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+/* Radio and Checkbox Input */
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Price Display */
+#priceDisplay {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Image */
+img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 120px; /* Adjust the width as needed */
+  height: 120px;
+}
+
+/* Price Paragraph */
+p {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza Order</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Pizza Order Form</h1>
+
+  <form id="pizzaForm">
+    <label>
+      <input type="radio" name="pizzaType" value="pizza" > Pizza
+      <p>$8</p>
+      <img src="Desain tanpa judul_20240501_100132_0000.png"  alt="">
+    </label><br>
+    <label>
+      <input type="radio" name="pizzaType" value="chickencrust"> Chicken Crust
+          <p>$10</p>
+      <img src="Desain tanpa judul_20240501_100132_0000.png"   alt="">
+    </label>
+    <br>
+    <label>
+      <input type="radio" name="pizzaType" value="hawaiian"> Hawaiian
+          <p>$12</p>
+      <img src="Desain tanpa judul_20240501_100132_0000.png" alt="">
+    </label>
+    <br>
+
+    <fieldset>
+      <legend>Size:</legend>
+      <label>
+        <input type="radio" name="size" value="small" > Small
+      </label><br>
+      <label>
+        <input type="radio" name="size" value="medium" checked> Medium
+      </label><br>
+      <label>
+        <input type="radio" name="size" value="large"> Large
+      </label><br>
+    </fieldset><br>
+
+    <label id="toppingLabel">
+      Toppings:<br>
+      <input type="checkbox" name="topping" value="avocado" data-price="1.5"> Avocado<br>
+      <input type="checkbox" name="topping" value="broccoli" data-price="2"> Broccoli<br>
+      <input type="checkbox" name="topping" value="onions" data-price="1"> Onions<br>
+      <input type="checkbox" name="topping" value="zucchini" data-price="1.5"> Zucchini<br>
+      <input type="checkbox" name="topping" value="lobster" data-price="3"> Lobster<br>
+      <input type="checkbox" name="topping" value="oyster" data-price="2.5"> Oyster<br>
+      <input type="checkbox" name="topping" value="salmon" data-price="2"> Salmon<br>
+      <input type="checkbox" name="topping" value="tuna" data-price="2.5"> Tuna<br>
+      <input type="checkbox" name="topping" value="bacon" data-price="1.5"> Bacon<br>
+      <input type="checkbox" name="topping" value="duck" data-price="2.5"> Duck<br>
+      <input type="checkbox" name="topping" value="ham" data-price="1.5"> Ham<br>
+      <input type="checkbox" name="topping" value="sausage" data-price="2"> Sausage<br>
+    </label><br><br>
+  </form>
+
+  <div id="priceDisplay"></div>
+
+
+
+<script src="main.js"></script>
+</body>
+</html>
